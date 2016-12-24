@@ -1,0 +1,181 @@
+/*------------------------------------ Reset from 960.gs -----------------------------------*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,dialog,div,dl,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,meter,nav,object,ol,output,p,pre,progress,q,rp,rt,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video,xmp{border:0;margin:0;padding:0;font-size:100%}html,body{height:100%}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}b,strong{font-weight:bold}img{color:transparent;font-size:0;vertical-align:middle;-ms-interpolation-mode:bicubic}ol,ul{list-style:none}li{display:list-item}table{border-collapse:collapse;border-spacing:0}th,td,caption{font-weight:normal;vertical-align:top;text-align:left}q{quotes:none}q:before,q:after{content:'';content:none}sub,sup,small{font-size:75%}sub,sup{line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}svg{overflow:hidden}
+/*-------------------------------------- End of Reset --------------------------------------*/
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif
+}
+
+#landing {
+  width: 100%;
+  height: 100%;
+  background: url('../img/landing.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-y: hidden;
+  position: relative;
+}
+
+#logo h1 {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 15%;
+  color: white;
+  text-shadow: 5px 5px 1px #000;
+}
+
+/* Navigation */
+
+#nav-wrap {
+  background: black;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+}
+
+#nav {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#nav a {
+  width: 200px;
+  height: 150px;
+  display: block;
+  float: left;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: 250px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#nav a {
+  background-repeat: no-repeat;
+  background-position: center 20px;
+  /*background-size: 70px 70px;*/
+}
+
+#nav-rentals {
+  background: url('../img/rentals.jpg');
+
+}
+
+#nav-repairs {
+  background: url('../img/repairs.jpg');
+}
+
+#nav-directions {
+  background: url('../img/directions.jpg');
+}
+
+#nav-contact {
+  background: url('../img/contact.jpg');
+}
+
+/* Body */
+
+#content {
+  width: 900px;
+  margin: 0 auto;
+  position: static;
+}
+
+#rentalBackground {
+    background: url('../img/Shirts.jpg');
+    width: 100%;
+    height: 386px;
+ }
+
+#repairBackground {
+  background: url('../img/Services.jpg');
+  width: 100%;
+  height: 500px;
+  position: ;
+}
+
+#directionContactBackground {
+  background: url('../img/Storefront.jpg');
+  width: 100%;
+  height: 900px;
+  overflow: none;
+
+}
+
+section > p {
+  text-align: center;
+  font-family: Futura, andale mono, Arial, sans-serif;
+  font-size: 60px;    
+  padding-bottom: 50px;
+}
+
+#repairs {
+  font-family: Futura, andale mono, Arial, sans-serif;
+  font-size: 25px;
+}
+
+#basicTune, deluxeTune {
+  width: 50%;
+  float: left;
+  clear: both;
+}
+
+#directions {
+  height: 600px;
+  width:100%;
+  overflow: none;
+}
+
+#openHours, Map {
+  width: 50%;
+  float: right;
+  clear: both;
+  overflow: none;
+  height: 50px;
+  width: 400px;
+  padding-top: 40px;
+}
+
+#Map {
+  width: 50%;
+  clear: both;
+  float: left;
+  overflow: none;
+  height: 50px;
+  width: 400px;
+}
+
+/*#googleMap{
+
+}*/
+
+section > a img {
+  width: 100px;
+  height: 120px;
+  display: block;
+  margin: 20px auto;
+}
+
+section > h1 {
+  text-align: center;
+  font-size: 100px;
+}
+
+#contactIcons {
+  width: 25%;
+  float: right;
+  clear: both;
+  overflow: none;
+  padding-bottom: 10px;
+  text-align: center;
+  padding-top: 30px;
+
+}
+
